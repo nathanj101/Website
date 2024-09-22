@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NWJ-InfoTech Website</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.jpg" alt="Avatar" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Nathan J">Nathan J</h1>
+
+          <p class="title">Malware Analyst</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:contact@nwjinfotech.net" class="contact-link">contact@nwjinfotech.net</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="business-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Work</p>
+
+              <a href="https://www.crowdstrike.com" class="contact-link" target="_blank">CrowdStrike</a>
+
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Victoria, Australia</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+<ul class="social-list">
+
+  <li class="social-item">
+    <a href="https://github.com/Cyb3rN8TE" class="social-link" target="_blank">
+      <ion-icon name="logo-github"></ion-icon>
+    </a>
+  </li>
+
+  <li class="social-item">
+    <a href="https://linktr.ee/cyb3rn8te" class="social-link" target="_blank">
+      <ion-icon name="link"></ion-icon>
+    </a>
+  </li>
+
+  <li class="social-item">
+    <a href="https://x.com/Cyb3rN8TE" class="social-link" target="_blank">
+      <ion-icon name="logo-twitter"></ion-icon>
+    </a>
+  </li>
+
+</ul>
+      </div>
+
+    </aside>
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Hi, my name is Nathan, and I'm excited to welcome you to my website! Here, you'll find a mix of my interests, including cybersecurity, gaming, cooking, and music. Whether you’re seeking insights, tips, or just a glimpse into my hobbies, I hope you enjoy exploring what I've put together. Thanks for visiting! 
+          </p>
+        </section>
+
+
+        <!--
+          - Showcase
+        -->
+
+        <section class="showcase">
+
+          <h3 class="h3 showcase-title">Current Focus</h3>
+
+          <ul class="showcase-list">
+
+            <li class="showcase-item">
+
+              <div class="showcase-icon-box">
+                <img src="./assets/images/music1.png
+                " alt="music icon" width="40">
+              </div>
+
+              <div class="showcase-content-box">
+                <h4 class="h4 showcase-item-title">Musician</h4>
+
+                <p class="showcase-item-text">
+                  I’m an avid fan of rock music, especially classic rock from the '70s and '80s, heavy metal, and alternative rock. I currently play electric guitar and bass guitar, and I love using my pedalboard and amplifier to create my own sound, inspired by elements from my musical heroes.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="showcase-item">
+
+              <div class="showcase-icon-box">
+                <img src="./assets/images/laptop1.png" alt="cyber security icon" width="40">
+              </div>
+
+              <div class="showcase-content-box">
+                <h4 class="h4 showcase-item-title">Cyber Security</h4>
+
+                <p class="showcase-item-text">
+                  I work in Cyber Security and bring four years of combined experience in blue teaming and engineering. I’ve previously held roles as a Junior Security Analyst and an IT Systems Administrator in SMB environments. Currently, I’m focused on my work as a Malware Analyst, where I apply my skills to detect and analyse threats effectively.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="showcase-item">
+
+              <div class="showcase-icon-box">
+                <img src="./assets/images/game1.png" alt="gaming icon" width="40">
+              </div>
+
+              <div class="showcase-content-box">
+                <h4 class="h4 showcase-item-title">Gaming</h4>
+
+                <p class="showcase-item-text">
+                  I love all things gaming and am a big fan of classic series like Ratchet and Clank, Call of Duty, Battlefield, and Monster Hunter, to name a few. In early 2024, I discovered a new passion for modifying video game consoles. Initially, I started this journey because hunting down old consoles proved impractical. However, my love for tinkering with electronics and soldering turned this hobby into a rewarding blend of interests, allowing me to bring multiple passions together.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="showcase-item">
+
+              <div class="showcase-icon-box">
+                <img src="./assets/images/exercise1.png" alt="exercise icon" width="40">
+              </div>
+
+              <div class="showcase-content-box">
+                <h4 class="h4 showcase-item-title">Fitness and Wellbeing</h4>
+
+                <p class="showcase-item-text">
+                  I love food and strive to cook dishes as authentically as possible. During university, I often procrastinated by Googling random food topics, which sparked my interest in food science. While I’m not a qualified nutritionist, I’ve done enough personal research to enjoy creating meal plans that align with current insights on human needs. I also love hitting the gym to get fit and build muscle, blending my passion for cooking with my fitness goals.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </section>
+
+        </div>
+
+      </article>
+
+      <!--
+        - #Linktree
+      -->
+
+      <article class="linktree" data-page="linktree">
+
+        <header>
+          <h2 class="h2 article-title">Linktree</h2>
+        </header>
+      </article>
+
+      <!--
+        - #PROJECTS
+      -->
+
+      <article class="projects" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Cyber Security</button>
+            </li>
+			
+			            <li class="filter-item">
+              <button data-filter-btn>Personal</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-select-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Personal</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Cyber Security</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="cyber security">
+              <a href="https://oldwiki.nwjinfotech.net/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="Wiki" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Cyb3rN8TE Wiki</h3>
+
+                <p class="project-category">Cyber Security</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="personal">
+              <a href="https://docs.nwjinfotech.net/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.jpg" alt="Nathan's Docs" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Nathan's Docs</h3>
+
+                <p class="project-category">Personal</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="cyber security">
+              <a href="https://chromewebstore.google.com/detail/defangit/gpigcfneaimhpnidnnnojakgmlkkdhdc" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="DefangIt" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DefangIt</h3>
+
+                <p class="project-category">Cyber Security</p>
+
+              </a>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
